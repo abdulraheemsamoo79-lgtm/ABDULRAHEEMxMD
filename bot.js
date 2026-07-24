@@ -82,7 +82,7 @@ const gracefulShutdown = (signal) => {
 
 // ========== CHECK CHANNELS FUNCTION ==========
 const checkUserJoinedChannels = async (userId) => {
-  const channels = ['arXprimeMDv1', '@abdulraheemXmd'];
+  const channels = ['@arXprimeMDv1', '@abdulraheemXmd'];
   let allJoined = true;
 
   for (const channel of channels) {
@@ -155,7 +155,7 @@ bot.onText(/\/start/, async (msg) => {
   // Private chat mein normal start message
   await bot.sendPhoto(
     chatId,
-    "https://i.postimg.cc/XNm38Zdg/file-000000004c1c8246a43ff13964708f94.png",
+    "https://i.ibb.co/Lhh7YHh6/Screenshot-2026-0512-192240.jpg",
     {
       caption: `🪀 *𝙏𝙝𝙚 𝐀𝐛𝐝𝐮𝐥𝐑𝐚𝐡𝐞𝐞𝐦 𝐌𝐃💀*\n\n╔════════════════════╗\n ⤷ /pair <wa_number>\n ⤷ /unpair <wa_number>\n╚════════════════════╝`,
       parse_mode: 'Markdown',
